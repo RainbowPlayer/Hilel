@@ -11,6 +11,10 @@ body {
   background-color: rgba(232, 240, 124, 0.397);
 }
 
+body * {
+  text-align: center;
+}
+
 #text-line {
   color: #a82cce;
 }
