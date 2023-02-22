@@ -5,6 +5,7 @@ h1 {
 .main-container {
   border: 1px solid aqua;
   margin: 10px 100px 50px 100px;
+  text-align: center;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 body * {
-  text-align: center;
+  font-family: Impact;
 }
 
 #text-line {
@@ -36,4 +37,8 @@ section > h2 {
 
 .change-background-red {
   background-color: rgba(255, 0, 0, 0.171);
+}
+
+[data-target="example"] {
+  text-decoration: line-through;
 }
