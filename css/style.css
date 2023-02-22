@@ -1,0 +1,35 @@
+h1 {
+  color: red;
+}
+
+.main-container {
+  border: 1px solid aqua;
+  margin: 10px 100px 50px 100px;
+}
+
+body {
+  background-color: rgba(232, 240, 124, 0.397);
+}
+
+#text-line {
+  color: #a82cce;
+}
+
+nav {
+  background: #d84b8186;
+  box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 90px 50px 90px;
+}
+
+section > h2 {
+  color: blue;
+}
+
+.change-clor-green {
+  color: green;
+}
+
+.change-background-red {
+  background-color: rgba(255, 0, 0, 0.171);
+}
