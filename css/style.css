@@ -5,12 +5,57 @@ html {
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  background: #c4c4c4;
+}
+
+.container {
+  width: 1000px;
+  margin-top: 30px;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.card-small {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.wrap {
+  background-color: #e6e6e6;
+  margin-top: 20px;
+}
+
+.clear-fix {
+  clear: both;
+  display: block;
+}
+
+.float-left + .float-left {
+  margin-left: 10px;
 }
