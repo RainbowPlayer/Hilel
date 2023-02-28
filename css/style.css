@@ -3,3 +3,32 @@ html {
   font-size: 16px;
   font-weight: 400;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(254, 255, 255);
+}
+
+a + a {
+  padding-left: 10px;
+}
+
+.nav-fix {
+  margin: 20px auto 10px;
+  width: 80%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(51, 50, 50, 0.445);
+  max-width: 500px;
+}
+
+body {
+  background: url("../images/car.jpg");
+}

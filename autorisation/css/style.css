@@ -1,0 +1,17 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("../../images/car2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
