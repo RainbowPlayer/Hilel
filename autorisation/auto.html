@@ -7,16 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../fonts/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Авторізація</title>
 </head>
 
 <body>
-    <section>
+    <div class="container">
+        <div class="background">
+            <section>
+                <h2 class="title-text">Авторізація</h2>
+            </section>
+            <form action="https://fom.in.ua/echo" method="post">
+                <div class="forms">
+                    <fieldset>
+                        <legend>Ваші дані</legend>
+                        <p>
+                            <label>
+                                <span class="float-left">Login</span>
+                                <input class="float-right" id="Login" type="text" name="Login"
+                                    placeholder="Ведіть ваш Login" required>
+                            </label>
+                        </p>
+                        <br>
+                        <p>
+                            <label>
+                                <span class="float-left">Пароль</span>
+                                <input class="float-right" id="Password" type="text" name="Password"
+                                    placeholder="Ведіть ваш пароль" required>
+                            </label>
+                        </p>
+                        <br>
+                        <p>
+                            <button>Відправити</button>
+                        </p>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
 
-    </section>
-
+    </div>
     <footer>
-
     </footer>
 </body>
 

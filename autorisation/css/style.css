@@ -15,3 +15,27 @@ body {
   background-position: center;
   background-size: 100%;
 }
+
+.title-text {
+  text-align: center;
+}
+
+.forms {
+  margin: 20px auto 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.background {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 228, 196, 0.548);
+}

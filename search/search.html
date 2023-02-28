@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <section>
+                <h2 class="title-text">Пошук авто</h2>
+            </section>
+            <form action="https://fom.in.ua/echo" method="post">
+                <div class="forms">
+                    <fieldset>
+                        <legend>Характеристики авто</legend>
+                        <p>
+                            <label>
+                                <span class="float-left">Марку</span>
+                                <select class="float-right" name="select">
+                                    <option value="0">Будь яка</option>
+                                    <option value="1">Audi</option>
+                                    <option value="2">Lada</option>
+                                    <option value="3">Mersedes</option>
+                                    <option value="4">Opel</option>
+                                </select>
+                            </label>
+                        </p>
+                        <br>
+                        <label>
+                            <span class="float-left">Палево</span>
+                            <select class="float-right" name="select">
+                                <option value="0">Будь яка</option>
+                                <option value="1">Бензин</option>
+                                <option value="2">Електро</option>
+                                <option value="3">Дизель</option>
+                            </select>
+                        </label>
+                        <br>
+                        <fieldset>
+                            <div class="float-left">
+                                <span>Стан</span>
+                            </div>
+                            <div class="float-right">
+                                <label>
+                                    <input type="checkbox" name="check" value="1">
+                                    Б/У
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="check" value="2">
+                                    Нова
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="check" value="3">
+                                    Бита
+                                </label>
+                                <br>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="float-left">
+                                <span>Коробка</span>
+                            </div>
+                            <div class="float-right">
+                                <label>
+                                    <input type="radio" name="check" value="1">
+                                    Автомат
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="check" value="2">
+                                    Механіка
+                                </label>
+                                <br>
+                            </div>
+                        </fieldset>
+                        <label>
+                            <span>Вартість</span>
+                            <input type="range" name="range" min="1000" max="100000" step="1000">
+                        </label>
+                        <br>
+                        <label>
+                            <span>Рік</span>
+                            <input type="number" name="number" min="2000" max="2022" step="1">
+                        </label>
+                        <br>
+                        <label>
+                            <span>Колір</span>
+                            <input type="color" name="color">
+                        </label>
+                        <p>
+                            <button type="reset">reset</button>
+                        </p>
+                        <p>
+                            <button>Відправити</button>
+                        </p>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
