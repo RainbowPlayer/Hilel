@@ -10,3 +10,21 @@ html {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  border: 1px solid;
+}
+
+td,
+th {
+  padding: 0.25rem 0.5rem;
+}
+
+.yellow {
+  background-color: yellow;
+}
