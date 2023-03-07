@@ -1,3 +1,11 @@
+:root {
+  --container-width: 1110px;
+  --basic-space: 1rem;
+  --color-grey: #eeeff1;
+  --color-white: #f9f9f9;
+  --color-blue: #34547a;
+}
+
 body {
   display: grid;
 }
