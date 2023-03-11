@@ -5,3 +5,82 @@ html {
   font-size: 16px;
   font-weight: 400;
 }
+
+.bg-black {
+  background-color: var(--color-black);
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  background-color: var(--color-black);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.top-menu > li {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  padding: 15px 0;
+}
+
+.top-menu li a {
+  display: inline-block;
+}
+
+.top-menu li {
+  color: beige;
+  position: relative;
+}
+
+.second-menu li {
+  position: relative;
+}
+
+.second-menu {
+  position: absolute;
+  width: 120px;
+  text-align: left;
+}
+
+.second-menu > li {
+  padding: 10px;
+  background-color: blue;
+}
+
+.mr-top {
+  margin-top: 15px;
+}
+
+.second-menu .second-menu {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 1px);
+}
+
+.top-menu > li:hover {
+  background-color: blue;
+  display: inline-block;
+}
+
+.top-menu .second-menu {
+  display: none;
+}
+
+.top-menu :hover .second-menu {
+  display: block;
+}
+
+.top-menu .second-menu .second-menu {
+  display: none;
+}
+.top-menu .second-menu :hover .second-menu {
+  display: block;
+}
+
+.second-menu :hover {
+  background-color: blueviolet;
+}
