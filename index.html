@@ -16,12 +16,17 @@
 
             <ul class="top-menu">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUCTS +</a>
+                <li class="parent"><a href="#">PRODUCTS +</a>
                     <ul class="second-menu mr-top">
                         <li><a href="#">Product 1 +</a></li>
-                        <li><a href="#">Product 2 +</a>
+                        <li class="parent"><a href="#">Product 2 +</a>
                             <ul class="second-menu">
-                                <li><a href="#">Sub Item</a></li>
+                                <li class="parent"><a href="#">Sub Item</a>
+                                    <ul class="second-menu">
+                                        <li><a href="#">Sub Item</a></li>
+                                        <li><a href="#">Sub Item</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Sub Item</a></li>
                             </ul>
                         </li>

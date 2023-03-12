@@ -49,6 +49,7 @@ li {
 .second-menu > li {
   padding: 10px;
   background-color: blue;
+  top: 100%;
 }
 
 .mr-top {
@@ -70,17 +71,10 @@ li {
   display: none;
 }
 
-.top-menu :hover .second-menu {
+.parent:hover > .second-menu {
   display: block;
 }
 
-.top-menu .second-menu .second-menu {
-  display: none;
-}
-.top-menu .second-menu :hover .second-menu {
-  display: block;
-}
-
-.second-menu :hover {
+.parent:hover {
   background-color: blueviolet;
 }
